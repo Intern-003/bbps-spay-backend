@@ -1,0 +1,116 @@
+/* Content Body */
+.content-body {
+    margin-top: 72px; /* height of fixed header */
+    margin-left: 100px;
+    padding: 20px;
+    min-height: 100vh;
+    background: #f6f6f6; /* light background for dashboard */
+    transition: margin-left 0.3s ease;
+}
+
+/* Content expands when sidebar is closed */
+.content-expanded {
+    margin-left: 50px;
+}
+
+/* Inner container */
+/*.content-wrapper {*/
+    /*background: #ffffff; */
+/*    padding: 30px;*/
+/*    border-radius: 15px;*/
+/*    min-height: calc(100vh - 100px);*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+
+    /* Shadow for highlighting */
+/*    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);*/
+
+    /* Top accent border (Spay.live primary color) */
+/*    border-top: 6px solid #13319b;*/
+
+    /* Smooth transition for hover */
+/*    transition: all 0.3s ease;*/
+/*}*/
+
+/* Optional hover effect for extra interactivity */
+/*.content-wrapper:hover {*/
+/*    transform: translateY(-3px);*/
+/*    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15), 0 6px 12px rgba(0, 0, 0, 0.08);*/
+/*}*/
+
+/* Decorative gradient circle (soft modern accent) */
+/*.content-wrapper::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: -60px;*/
+/*    right: -60px;*/
+/*    width: 180px;*/
+/*    height: 180px;*/
+    /*background: rgba(91, 207, 197, 0.15);*/
+/*    border-radius: 50%;*/
+/*    pointer-events: none;*/
+/*}*/
+
+/* Responsive adjustments */
+/*@media (max-width: 1200px) {*/
+/*    .content-wrapper {*/
+/*        padding: 20px;*/
+/*        border-radius: 12px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 992px) {*/
+/*    .content-body {*/
+/*        margin-left: 0;*/
+/*        padding: 15px;*/
+/*    }*/
+/*    .content-wrapper {*/
+/*        padding: 15px;*/
+/*        border-radius: 10px;*/
+/*    }*/
+/*}*/
+
+
+/*---------------dashboard.blade.php---------------------*/
+/* Invoice Cards */
+/*.invoice-card {*/
+/*  transition: transform 0.3s ease, box-shadow 0.3s ease;*/
+/* background: linear-gradient(135deg, #1a3bbf, #13319b);*/
+    
+    /*color: #fff; */
+/*    border-radius: 12px;*/
+/*    padding: 20px;*/
+/*    box-shadow: 0 8px 20px rgba(0,0,0,0.15);*/
+    
+/*}*/
+/*.invoice-card:hover {*/
+/*  transform: translateY(-5px);*/
+/*  box-shadow: 0 10px 20px rgba(0,0,0,0.1);*/
+/*}*/
+
+/* Gradients for cards */
+/*.bg-gradient-color { background: linear-gradient(135deg, #5bcfc5, #38bfb3); }*/
+
+
+/* Table Styling */
+/*.table-hover tbody tr:hover {*/
+/*  background: rgba(91, 207, 197, 0.1);*/
+/*}*/
+
+/*.table th {*/
+/*  font-weight: 600;*/
+/*  background: #f8f9fa;*/
+/*}*/
+
+/*.table td, .table th {*/
+/*  vertical-align: middle;*/
+/*}*/
+
+/* Responsive adjustments */
+/*@media (max-width: 768px) {*/
+/*  .invoice-card-row .invoice-card {*/
+/*    margin-bottom: 15px;*/
+/*    text-align: center;*/
+/*  }*/
+/*}*/
+

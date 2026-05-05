@@ -1,0 +1,84 @@
+.dlabnav {
+  width: 100px; /* narrower */
+  background: linear-gradient(135deg, #13319b, #4361ee);
+  position: fixed;
+  top: 72px;
+  left: 0;
+  bottom: 0;
+  padding-top: 20px;
+  overflow-y: auto;
+  z-index: 80;
+  box-shadow: 2px 0 12px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+/* Scroll wrapper  */
+.dlabnav-scroll {
+  padding: 10px 0;
+}
+
+/* Sidebar categories */
+.sidebar-category {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 15px 20px 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+/* Remove bullets completely */
+.dlabnav ul {
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* Menu Items */
+.dlabnav ul li {
+  margin-bottom: 8px;
+}
+
+.dlabnav ul li a {
+  display: flex;
+  flex-direction: column; /* icon above text */
+  align-items: center;
+  justify-content: center;
+  padding: 12px 8px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px; /* smaller for narrow */
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+/* Icon Styling */
+.dlabnav ul li a i {
+  font-size: 18px;
+  margin-bottom: 4px;
+  color: #fff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+/* Hover & Active */
+.dlabnav ul li a:hover,
+.dlabnav ul li a.active {
+  background: rgba(255,255,255,0.15);
+}
+
+.dlabnav ul li a:hover i {
+  transform: scale(1.2);
+}
+
+/* Footer */
+.dlabnav .copyright {
+  font-size: 10px;
+  color: #ffffff;
+  margin-top: 30px;
+  padding: 10px 15px;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}

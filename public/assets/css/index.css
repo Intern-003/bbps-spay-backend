@@ -1,0 +1,62 @@
+:root {
+    --themeclr-0: #022F4A;
+}
+
+.themeclr-0 {
+    color: var(--themeclr-0);
+}
+
+._themeclr-0 {
+    color: var(--themeclr-0) !important;
+}
+
+.themebg-0 {
+    background-color: var(--themeclr-0);
+}
+
+._themebg-0 {
+    background-color: var(--themeclr-0) !important;
+}
+
+.legend-inp legend {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.terms {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.login-body {
+    background: linear-gradient(0deg, rgb(2, 47, 74) 0%, rgb(2, 47, 74) 48%, rgb(244, 245, 255) 48%, rgb(244, 245, 255) 100%);
+}
+
+.login-footer {
+    background-color: var(--themeclr-0);
+}
+
+.login-footer h6 {
+    color: #FFD98E;
+}
+
+/* .login-slider .slick-slide>div>div {
+    outline: none;
+} */
+
+/* .login-slider .slick-arrow {
+    z-index: 1;
+}
+
+.login-slider .slick-prev {
+    left: 20px;
+}
+
+.login-slider .slick-next {
+    right: 20px;
+} */
+
+.login-slider div {
+    height: 100%;
+}
